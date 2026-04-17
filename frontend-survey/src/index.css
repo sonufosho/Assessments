@@ -1,0 +1,78 @@
+:root {
+  --blue-100: #cce5ff;
+  --blue-200: #99ccff;
+  --blue-300: #66b2ff;
+  --blue-400: #3399ff;
+  --blue-500: #007fff;
+  --blue-600: #0066cc;
+  --blue-700: #004c99;
+  --blue-800: #003366;
+  --blue-900: #001933;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: hsl(0, 5%, 95%);
+  margin: 0;
+  box-sizing: border-box;
+}
+
+p {
+  margin: 0;
+}
+
+input {
+  font-family: "Inter", sans-serif;
+  color: hsl(0, 5%, 5%);
+  background-color: hsl(0, 5%, 80%);
+  font-size: 14px;
+  padding: 12px 200px 12px 12px;
+  border-radius: 8px;
+  border: 3px solid transparent;
+}
+
+input:focus {
+  background-color: transparent;
+  border: 3px solid hsl(0, 5%, 30%);
+  outline: none;
+}
+
+button {
+  font-size: 14px;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.button-primary {
+  color: var(--blue-100);
+  background-color: var(--blue-500);
+  padding: 8px 16px;
+  border: none;
+  border-radius: 40px;
+}
+
+.button-primary:hover {
+  background-color: var(--blue-600);
+}
+
+.button-primary:active {
+  background: var(--blue-700);
+}
+
+.button-secondary {
+  color: var(--blue-500);
+  background: hsl(0, 5%, 95%);
+  padding: 7px 15px;
+  border: 2px solid var(--blue-500);
+  border-radius: 40px;
+  cursor: pointer;
+}
+
+.button-secondary:hover {
+  background-color: var(--blue-100);
+  color: hsl(0, 5%, 95%);
+}
+
+.button-secondary:active {
+  background-color: var(--blue-200);
+}
